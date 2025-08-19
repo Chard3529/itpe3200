@@ -1,0 +1,15 @@
+# Anything in a bin folder
+*/bin/*
+
+# Anything in an object folder
+*/obj/*
+
+# Anything in a properties folder 
+*/Properties/*
+
+# Any file ending in json
+*.json
+
+# Any file ending in csproj
+*.csproj
+
