@@ -1,11 +1,11 @@
 # Anything in a bin folder
-*/bin/
+**/bin/
 
 # Anything in an object folder
-*/obj/
+**/obj/
 
 # Anything in a properties folder 
-*/Properties
+**/Properties
 
 # Any file ending in json
 *.json
