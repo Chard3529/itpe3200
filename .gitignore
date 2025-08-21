@@ -13,3 +13,5 @@
 # Any file ending in csproj
 *.csproj
 
+# Any file ending in sln
+*.sln 
