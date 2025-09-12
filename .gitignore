@@ -7,6 +7,10 @@
 # Anything in a properties folder 
 **/Properties
 
+# Anything in a node_modules folder
+**/node_modules/
+
+
 # Any file ending in json
 *.json
 
@@ -15,3 +19,4 @@
 
 # Any file ending in sln
 *.sln 
+
