@@ -1,0 +1,17 @@
+@model IEnumerable<Item>
+
+<h1>List of Shop items (@ViewBag.CurrentViewName View)</h1>
+<a href="/Item/Table">Table View</a>
+
+<div class="row row-cols-1 row cols-md3 g-4">
+    
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div>
+                <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name">
+            </div>
+        </div>
+    }
+
+</div>
