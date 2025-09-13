@@ -1,4 +1,6 @@
-@model IEnumerable<MyShop.Models.Item>
+@model IEnumerable<Item>
+<h1>List of Shop Items (@ViewBag.CurrentViewName View)</h1>
+<a href="/Item/Grid">Grid View</a>
 
 <div class="container">
     <h1>@ViewBag.CurrentViewName</h1>
@@ -10,6 +12,7 @@
                 <td>@item.ItemId</td>
                 <td>@item.Name</td>
                 <td>@item.Price.ToString("0.00 NOK")</td>
+                <td>@item.Description</td>
                 <td></td>
             </tr>
         }
