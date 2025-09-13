@@ -9,11 +9,13 @@ namespace MyShop.Models
 		public string? Description { get; set; }
 		public string? ImageUrl { get; set; }
 
-		public Item(int ItemId, String Name, decimal Price)
+		public Item(int itemId, string name, decimal price, string? description, string? imageUrl)
 		{
-			this.ItemId = ItemId;
-			this.Name = Name;
-			this.Price = Price;
+			ItemId = itemId;
+			Name = name;
+			Price = price;
+			Description = description;
+			ImageUrl = imageUrl;
 		}
 	}
 }
