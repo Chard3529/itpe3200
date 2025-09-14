@@ -1,0 +1,18 @@
+@model IEnumerable<PokemonDatabase.Models.Pokemon>
+
+<h1>@ViewBag.CurrentViewName</h1>
+<table>
+    <tr>
+        <th>DexId</th>
+        <th>Name</th>
+        <th>Type</th>
+    </tr>
+    @foreach(var pokemon in Model)
+    {
+        <tr>
+            <td>@pokemon.DexId</td>
+            <td>@pokemon.Name</td>
+            <td>@pokemon.Type</td>
+        </tr>
+    }
+</table>
